@@ -1,4 +1,4 @@
-
+require_relative "../lib/blackjack.rb"
 
 def welcome
   # code #welcome here
