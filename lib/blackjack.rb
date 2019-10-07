@@ -8,6 +8,13 @@ def deal_card(card = 1..11)
   rand(card)
 end
 
+def display_card_total(card)
+  # code #display_card_total here
+  puts "Your cards add up to #{card}"
+end
+
+
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
