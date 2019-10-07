@@ -23,6 +23,12 @@ def get_user_input(a = gets.chomp)
   a 
 end
 
+def end_game(x)
+  # code #end_game here
+  puts "Sorry, you hit #{x}. Thanks for playing!"
+end
+
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
