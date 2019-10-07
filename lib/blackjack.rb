@@ -18,6 +18,11 @@ def prompt_user
   puts "Type 'h' to hit or 's' to stay"
 end
 
+def get_user_input(a = gets.chomp)
+  # code #get_user_input here
+  a 
+end
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
