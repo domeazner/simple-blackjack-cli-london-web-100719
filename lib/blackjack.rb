@@ -1,5 +1,3 @@
-require_relative "../lib/blackjack.rb"
-
 def welcome
   # code #welcome here
     puts "Welcome to the Blackjack Table"
