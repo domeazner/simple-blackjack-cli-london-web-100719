@@ -28,6 +28,14 @@ def end_game(x)
   puts "Sorry, you hit #{x}. Thanks for playing!"
 end
 
+def initial_round
+  # code #initial_round here
+  card = deal_card + deal_card
+  display_card_total(card)
+ card
+end
+
+
 
 #####################################################
 # get every test to pass before coding runner below #
