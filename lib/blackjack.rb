@@ -35,6 +35,19 @@ def initial_round
  card
 end
 
+def hit?(x)
+  # code hit? here
+  prompt_user
+  case get_user_input
+  when "s"
+    x
+  when "h"
+    x += deal_card
+  when others
+    invalid_command
+  end
+end
+
 
 
 #####################################################
